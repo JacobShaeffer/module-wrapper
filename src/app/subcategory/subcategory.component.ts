@@ -12,7 +12,7 @@ export class SubcategoryComponent implements OnInit {
   public subcategories: Array<Subcategory> = [];
   public parentName: string = "";
   public  math = Math;
-  public image_name = "/_thumbnail.jpeg";
+  public image_name = "/_thumbnail.png";
   constructor( private dataService: DataService,
     private route: ActivatedRoute) { }
 
